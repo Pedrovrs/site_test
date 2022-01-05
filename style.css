@@ -1,13 +1,121 @@
-h1 {
-    color: darkorchid;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Cormorant+Upright:wght@300&family=Indie+Flower&family=Titan+One&family=Yeon+Sung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: #D5A0FF;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.item{
+    font-family: 'Yeon Sung', cursive;
+    color:darkmagenta;
+    font-weight: 400;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-    background-color: hotpink;
+.item:hover{
+    color:rgb(0, 0, 0);
 }
 
-.chokitinho {
-    color: lawngreen;
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid darkmagenta ;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.escrita{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.escrita-titulo{
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: darkmagenta;
+}
+
+.escrita-subtitulo{
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(32, 0, 90);
+}
+
+.meu-link{
+    background-color:rgb(153, 50, 204);
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.34);
+    border-radius: 27px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:azure ;
+}
+.meu-link:hover{
+    background-color:rgb(0, 0, 0);
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-top: 50px;
+}
+
+.titulo-segundario{
+    border-top: 0.8px solid #9932cc ;
+    padding-top: 34px;
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 14px;
+}
+
+.conteudo-paragrafo{
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 250;
+    font-size: 20px;
+    color: rgb(32, 0, 90);
+}
+
+.rodape{
+    padding: 54px;
+    border-top: 0.8px solid #9932cc;
+}
+
+.rodape-credito{
+    font-family: 'Yeon Sung', cursive;
+    font-weight: 250;
+    font-size: 20px;
+    color: rgb(32, 0, 90);
+    align-content: center;
 }
